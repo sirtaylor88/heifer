@@ -2,9 +2,9 @@
 
 Javascript practices
 
-# Node Version Manager (nvm)
+## Node Version Manager (nvm)
 
-## Installation steps
+### Installation steps
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
@@ -16,8 +16,20 @@ Create `.nvmrc` file with node version in it.
 echo "21.7.0" >> .nvmrc
 ```
 
-## Start node
+### Start node
 
 ```bash
 nvm use
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Start
+
+```bash
+npm run start
 ```
